@@ -1,21 +1,23 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    About: /about/
+    Zhihu: https://www.zhihu.com/people/zheduanyin/activities
+    GitHub: https://github.com/filosfino
     Rss: /atom.xml
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /favicon_96*96.png
+logo: /favicon_473*473.png
 
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo:
+duoshuo: filosfino
 
 # Analytics
 # google-analytics:
 # ga: UA-xxxxxxxx-x
+ga: UA-94010149-1
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2016

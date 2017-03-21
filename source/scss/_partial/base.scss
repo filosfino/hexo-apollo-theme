@@ -13,8 +13,12 @@ body {
     color: #34495e;
     font-size: 15px;
     line-height: 1.6;
-    background-color: #fff;
+    background-image: url('../bg.png');
     font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
+
+    .wrap {
+        background-color: #fff;
+    }
 }
 
 ul.nav,
