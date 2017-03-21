@@ -6,13 +6,13 @@ menu:
     GitHub: https://github.com/filosfino
     Rss: /atom.xml
 
-favicon: /favicon_96*96.png
-logo: /favicon_473*473.png
+favicon: /images/favicon.png
+logo: /images/favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo: filosfino
+disqus: filosfino
+duoshuo:
 
 # Analytics
 # google-analytics:
