@@ -1,0 +1,8 @@
+div.tagcloud
+    p 屋子里的一些房间，可以随意转转，也可以搭传送门到朋友家看看
+    != tagcloud({min_font: 12, max_font: 35, amount: 20, color: true, start_color: 'gray', end_color: 'black'})
+
+    each item in config.friends
+        a.link(href= item.url)
+            != item.text
+

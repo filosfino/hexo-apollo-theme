@@ -1,0 +1,20 @@
+body {
+    .tagcloud {
+        margin-bottom: 40px;
+
+        a {
+            margin-right: 12px;
+            font-family: cursive;
+
+            &.link {
+                color: #34495e;
+                font-size: 1.4em;
+                font-family: cursive;
+            }
+
+            &:hover {
+                color: #42b983 !important;
+            }
+        }
+    }
+}
