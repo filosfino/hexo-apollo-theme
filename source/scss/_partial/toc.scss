@@ -1,0 +1,27 @@
+body {
+    .toc {
+        float: right;
+        margin-left: 40px;
+        padding: 20px 28px;
+        background: #f1f1f1;
+        border-radius: 10px;
+        box-shadow: 0 0 3px #bbb;
+        max-width: 25%;
+        font-size: 80%;
+        line-height: 2;
+        color: #42b983;
+
+        .toc-level-1 {
+            list-style-type: circle;
+        }
+        .toc-level-2 {
+            list-style-type: square;
+        }
+        .toc-link:hover {
+            color: #42b983;
+        }
+        .toc-child {
+            padding-left: 30px;
+        }
+    }
+}
