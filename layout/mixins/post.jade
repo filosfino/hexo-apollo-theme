@@ -1,9 +1,8 @@
 mixin postInfo(item)
-    .post-info
+    span.post-info
         != full_date(item.date, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
-
 
 //- Index Page
 mixin posts()
@@ -14,7 +13,7 @@ mixin posts()
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
-                    +postInfo(item)
+                        +postInfo(item)
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('read more')
@@ -43,6 +42,9 @@ mixin post(item)
         article.post-block
             h1.post-title
                 != item.title
-            +postInfo(item)
+                +postInfo(item)
+            each i in item.tags
+                a.link()
+                    != i
             .post-content
                 != item.content
